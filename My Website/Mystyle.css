@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+}
+body {
+  font: 14px/1.5 sans-serif;
+  padding: 0;
+  line-height: 1;
+  background-image: url("images/Background.png");
+  overflow: hidden;
+  height: 100%;
+  min-height: 100%;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+@font-face {
+  src: url(fonts/BadaBoom BB.ttf);
+  font-family: BadaBoom BB;
+}
+.container {
+font-family: BadaBoom BB;
+width:100%;
+}
+.container1 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  background: #B7E8E1;
+  padding-top: 20px;
+  min-height: 50px;
+  border-bottom: #D8B7E8 5px solid;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+}
+header li {
+  margin-left: 10px;
+  display: inline;
+  padding: 0px 15px 0px 15px;
+}
+.logo {
+  width: 100px;
+  float: right;
+}
+header nav {
+text-align: center;
+}
+header .highlight, header .current a{
+  color: #D8B7E8;
+  font-weight: bold;
+}
+header a:hover{
+  color: #6600cc;
+  font-weight: bold;
+}
+#showcase h1{
+min-height: 20px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 5px;
+font-size: 55px;
+}
+#showcase h2{
+min-height: 20px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 5px;
+font-size: 25px;
+}
+#showcase p{
+  margin-top: 5px;
+  text-align: center;
+  font: 17px/1 sans-serif;
+}
+.image {
+  max-width: 54%;
+  margin-left: 140px;
+  margin-top: -45px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image2 {
+  opacity: .4;
+  float: left;
+  max-width: 50%;
+}
+.image7 {
+  max-width: 50%;
+  float: right;
+}
+.image3 {
+  width: 95px;
+  border: solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+.image4 {
+  width: 140px;
+  border: solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+.image5 {
+  width: 175px;
+  border: solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+.image6{
+  max-width: 35%;
+  float: right;
+  margin-top: -235px;
+}
+textarea {
+  width: 50%;
+  height: 100px;
+  border: 2px solid #008CBA;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 10em;
+  padding-top: 50px;
+  font-size: 20px;
+}
+input {
+  background-color: #008CBA;;
+  border-radius: 50%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+input:hover {
+  background-color: #4CAF50;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  background-color:	#99ffbb;
+  float: right;
+  font: 15px/1 sans-serif;
+}
